@@ -1,0 +1,91 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "MyJsonStore",
+        "storeId": "MyJsonStore"
+    },
+    "designerId": "6a013a4d-e489-41b8-aad0-1880be4f312b",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://localhost:4000/micomiditaback/conexion.php/getProductos"
+            },
+            "designerId": "405b2c33-ae1d-4b98-8d16-db86ca8608c2",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "root",
+                        "totalProperty": "records"
+                    },
+                    "designerId": "cfd8b118-dc0b-48dd-9b47-3b866067aba0"
+                }
+            ]
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Nombre"
+            },
+            "designerId": "f4459d01-a856-4dfa-9b1b-7fb068db7b5c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Unidad"
+            },
+            "designerId": "485fd3d9-156b-4614-8433-3e39159b57d6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Categoria"
+            },
+            "designerId": "c521a2ac-7fdc-4f44-9a8f-79ecacaf5e81"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "precioUnidad"
+            },
+            "designerId": "f5f3d7d8-5987-4193-ab6e-832b58ab1218"
+        }
+    ]
+}

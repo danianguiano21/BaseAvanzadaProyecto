@@ -1,0 +1,49 @@
+{
+    "name": "MiComidita",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1387,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "7ed0c844-b114-4ccc-b2df-e5ddb5b9824a"
+        ],
+        "store": [
+            "6a013a4d-e489-41b8-aad0-1880be4f312b"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "d995c79a-f0fb-47a2-8f6d-5ba52bf097a0",
+            "b062c854-29b3-4ac7-97b4-7fd8ec1104f2"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
